@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.gift {
+  width: 100%;
+  height: calc(100% - 0.79rem);
+  height: -moz-calc(100% - 0.79rem);
+  height: -webkit-calc(100% - 0.79rem);
+  overflow-y: auto;
+  position: relative;
+  background: #f1f2f7; }
+  .gift .ban {
+    width: 100%;
+    height: 3.46rem;
+    margin-bottom: 0.2rem; }
+    .gift .ban img {
+      display: block;
+      width: 100%;
+      height: auto; }
+  .gift .giftCon {
+    width: 100%; }
+    .gift .giftCon .giftPer {
+      width: calc(100% - 0.42rem);
+      width: -moz-calc(100% - 0.42rem);
+      width: -webkit-calc(100% - 0.42rem);
+      padding: 5px 0.21rem 0.5rem 0.21rem;
+      background: #fff;
+      margin-bottom: 0.2rem; }
+      .gift .giftCon .giftPer h2 {
+        width: 100%;
+        font: 0.28rem/0.76rem "微软雅黑";
+        color: #333333;
+        border-bottom: 0.01rem solid #d4d5d4; }
+      .gift .giftCon .giftPer .gPC {
+        width: 100%;
+        width: calc(100% - 0.56rem);
+        width: -moz-calc(100% - 0.56rem);
+        width: -webkit-calc(100% - 0.56rem);
+        padding: 0 0.28rem;
+        text-align: center;
+        margin-bottom: 0.2rem; }
+        .gift .giftCon .giftPer .gPC dl {
+          display: inline-block;
+          margin: 0 auto;
+          padding-top: 0.4rem;
+          width: 1.47rem; }
+          .gift .giftCon .giftPer .gPC dl dt {
+            width: 100%;
+            margin-bottom: 0.12rem; }
+            .gift .giftCon .giftPer .gPC dl dt img {
+              display: block;
+              width: 0.84rem;
+              height: auto;
+              margin: 0 auto; }
+          .gift .giftCon .giftPer .gPC dl dd {
+            font: 0.22rem/0.24rem "微软雅黑";
+            color: #333333;
+            text-align: center;
+            height: 0.5rem; }
+      .gift .giftCon .giftPer button {
+        display: block;
+        width: 3.62rem;
+        margin: 0 auto;
+        border-radius: 0.08rem;
+        margin-top: 0.4rem;
+        background: #cf0f32; }
+        .gift .giftCon .giftPer button a {
+          display: block;
+          font: 0.24rem/0.55rem "微软雅黑";
+          color: #fff; }

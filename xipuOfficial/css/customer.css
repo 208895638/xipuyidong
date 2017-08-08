@@ -1,0 +1,57 @@
+@charset "UTF-8";
+.customer {
+  width: 100%;
+  height: calc(100% - 0.79rem);
+  height: -moz-calc(100% - 0.79rem);
+  height: -webkit-calc(100% - 0.79rem);
+  overflow-y: auto;
+  position: relative; }
+  .customer .ban {
+    width: 100%;
+    height: 100%; }
+    .customer .ban .banTop {
+      width: 100%;
+      height: 3.35rem;
+      background: url(../images/customer_top.png) no-repeat center;
+      background-size: cover; }
+      .customer .ban .banTop img {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .customer .ban .banCen {
+      width: 100%;
+      height: 3.07rem;
+      background: url(../images/customer_center_bg.png) no-repeat center;
+      background-size: cover; }
+    .customer .ban .banBot {
+      width: 100%;
+      height: calc(100% - 6.42rem);
+      height: -moz-calc(100% - 6.42rem);
+      height: -webkit-calc(100% - 6.42rem);
+      background: url(../images/customer_bottom.png) repeat left top; }
+  .customer .codeWord {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 3.35rem);
+    height: -moz-calc(100% - 3.35rem);
+    height: -webkit-calc(100% - 3.35rem);
+    padding-top: 3.35rem; }
+    .customer .codeWord .codeWT {
+      width: 100%; }
+      .customer .codeWord .codeWT img {
+        width: 3.50rem;
+        height: auto;
+        max-width: 320px;
+        display: block;
+        margin: 0 auto; }
+    .customer .codeWord ul {
+      width: 100%; }
+      .customer .codeWord ul li {
+        width: 100%; }
+        .customer .codeWord ul li a {
+          display: block;
+          text-align: center;
+          font: 0.25rem/0.43rem "微软雅黑";
+          color: #3d3d3d; }
